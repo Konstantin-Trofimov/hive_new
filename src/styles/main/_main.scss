@@ -1,0 +1,39 @@
+body {
+	// background-color: black;
+	background-color: #F4F6FD;
+}
+
+* {
+	// font-family: 'Evolventa', sans-serif;
+	font-family: 'Evolventa', sans-serif;
+	color: #001529;
+	font-style: normal;
+	font-weight: normal;
+	
+	line-height: 150%;
+}
+
+
+
+
+.title {
+	line-height: 100%;
+	letter-spacing: 0.07em;
+	font-weight: 700;
+}
+
+@media (max-width: 780px) {
+	.title {
+		letter-spacing: 0;
+		font-weight: 400;
+	}
+}
+
+$mynewcolor:#7C94FF;
+
+.btn-primary {
+    @include button-variant($mynewcolor, darken($mynewcolor, 7.5%), darken($mynewcolor, 10%), lighten($mynewcolor,5%), lighten($mynewcolor, 10%), darken($mynewcolor,30%));
+	color: #FFFF !important;
+}
+
+

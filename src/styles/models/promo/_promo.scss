@@ -1,0 +1,27 @@
+.promo {
+    height: 100vh;
+    background: radial-gradient(77.04% 138.67% at 44.65% 35.98%, #261854 0%, #000812 100%);
+
+    &__wrapper {
+        padding-top: 140px;
+        padding-left: 140px;
+    }
+
+    &__title {
+        max-width: 965px;
+        line-height: 150%;
+        color: #FFFF;
+        
+    }
+
+    @media (max-width: 1024px) {
+        .promo {
+            &__wrapper {
+                padding-left: 0;
+            }
+            &__title {
+                max-width: auto;
+            }
+        }
+    }
+}
