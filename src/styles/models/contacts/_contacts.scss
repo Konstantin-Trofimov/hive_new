@@ -10,7 +10,7 @@
         top: 156px;
         left: 50%;
         transform: translateX(-50%);
-        background: #FFFFFF;
+        background: #FFFF;
         border-radius: 5px;
         height: 304px;
         padding: 114px 70px 136px;
@@ -28,7 +28,7 @@
        width: 100px;
        height: 100px;
        border-radius: 100%;
-       background: #7C94FF;
+       background: $main_color_light;
        display: flex;
        align-items: center;
        justify-content: center;
@@ -36,6 +36,6 @@
     }
 
     &__text {
-        font-size: 18px;
+        // font-size: 18px;
     }
 }

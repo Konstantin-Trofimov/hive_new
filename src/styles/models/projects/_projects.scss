@@ -12,7 +12,7 @@
         padding: 79px 40px 40px 40px;
         width: 343px;
         height: 473px;
-        background: #FFFFFF;
+        background: #FFFF;
         box-shadow: 0px 6px 33px rgba(0, 0, 0, 0.28);
         border-radius: 5px;
         cursor: pointer;
@@ -24,7 +24,7 @@
             width: 100px;
             height: 100px;
             border-radius: 100%;
-            background-color: #7C94FF;
+            background-color: $main_color_light;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -44,8 +44,6 @@
                     display: none;
                 }
             }
-
-            
         }
 
         &-title {
@@ -62,11 +60,11 @@
         }
 
         &:hover {
-            background-color: #7C94FF;
+            background-color: $main_color_light;
             animation: bounce 1s;
 
             .projects__card-title {
-                color: #FFFF;
+                color: $font_color_light;
             }
 
             .projects__card-icon {
@@ -81,11 +79,7 @@
                         display: block;
                     }
                 }
-
-               
-            }
-
-            
+            } 
         }
     }
 }

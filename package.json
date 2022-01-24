@@ -18,6 +18,7 @@
     "css-loader": "^5.2.7",
     "css-minimizer-webpack-plugin": "^1.3.0",
     "csv-loader": "^3.0.3",
+    "exports-loader": "^3.1.0",
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.0.0",
     "mini-css-extract-plugin": "^1.6.2",
@@ -36,8 +37,10 @@
     "xml-loader": "^1.2.1"
   },
   "dependencies": {
+    "animate.css": "^4.1.1",
     "bootstrap": "^5.1.3",
     "jquery": "^3.5.1",
-    "normalize.css": "^8.0.1"
+    "normalize.css": "^8.0.1",
+    "wowjs": "^1.1.3"
   }
 }

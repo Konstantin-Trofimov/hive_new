@@ -1,20 +1,24 @@
+html, body {
+	height: 100%;
+}
+
 body {
-	// background-color: black;
-	background-color: #F4F6FD;
+	background-color: $bg_color;
 }
 
 * {
-	// font-family: 'Evolventa', sans-serif;
 	font-family: 'Evolventa', sans-serif;
-	color: #001529;
+	color: $font_color_dark;
 	font-style: normal;
-	font-weight: normal;
-	
-	line-height: 150%;
+	font-weight: 400;
+	font-size: 18px;
 }
 
 
-
+section:not(.promo), footer {
+	max-width: 1980px;
+    margin: 0 auto;
+}
 
 .title {
 	line-height: 100%;
@@ -29,11 +33,12 @@ body {
 	}
 }
 
-$mynewcolor:#7C94FF;
-
 .btn-primary {
-    @include button-variant($mynewcolor, darken($mynewcolor, 7.5%), darken($mynewcolor, 10%), lighten($mynewcolor,5%), lighten($mynewcolor, 10%), darken($mynewcolor,30%));
-	color: #FFFF !important;
+    @include button-variant($main_color_light, darken($main_color_light, 7.5%), darken($main_color_light, 10%), lighten($main_color_light,5%), lighten($main_color_light, 10%), darken($main_color_light,30%));
+	color: $font_color_light !important;
 }
 
+.btn-outline-light:hover {
+	color: $main_color_dark;
+}
 
